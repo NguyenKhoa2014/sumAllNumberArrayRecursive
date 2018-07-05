@@ -1,7 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const sumItems = require('./index');
+const sumItems = require('../index');
 
 describe('sum', function() {
   it('handles a single item array fine', () => {
